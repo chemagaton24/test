@@ -11,8 +11,8 @@ const App = () => {
   return (
     <div>
       <Router>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="about">About</NavLink>
+        <NavLink to="/test">Home</NavLink>
+        <NavLink to="/test/about">About</NavLink>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
